@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Signin from "../components/signin.svelte";
+</script>
+
+<div class="flex w-full justify-center align-center p-10">
+	<h1 class="text-3xl font-bold m-auto">Hello world!</h1>
+	<Signin />
+</div>
