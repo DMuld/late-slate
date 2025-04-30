@@ -3,7 +3,7 @@
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card"
 
-export default function CreateForm() {
+export default function CreateLobbyForm() {
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
@@ -27,6 +27,7 @@ export default function CreateForm() {
 					<Input
 						type="text"
 						name="lobbyName"
+						required
 					/>
 				</label>
 				<br />

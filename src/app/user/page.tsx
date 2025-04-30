@@ -1,12 +1,12 @@
-import CreateForm from "@/components/CreateForm";
+import UserForm from "@/components/UserForm";
 
 export default function page() {
   return (
     <>
       <h1 className="m-auto w-sm text-center font-bold text-2xl">
-        Create a Lobby
+        Create User
       </h1>
-      <CreateForm />
+      <UserForm />
     </>
   );
 }
